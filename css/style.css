@@ -113,21 +113,17 @@ input,button,select,textarea{
 p{
 	position:relative;
 	line-height:1.7em;	
-	text-align: left;
+	text-align: justify;
 }
 
 .strike-through{
 	text-decoration:line-through;	
 }
-/* .container-fluid{
-padding-left: 0px !important;
-padding-right: 0px !important;
-} */
 
 .auto-container{
 	position:static;
 	max-width:1200px;
-	/* padding:0px 15px; */
+	padding:0px 15px;
 	margin:0 auto;
 }
 
@@ -694,7 +690,7 @@ ul,li{
 	position:relative;
 	float:left;
 	font-size:14px;
-	line-height:24px;
+	line-height:20px;
 	margin-right:20px;
 	color:#c4c4c4;
 }
@@ -1643,8 +1639,8 @@ ul,li{
 
 .two-col-fluid .content-column .inner-box{
 	position: relative;
-    padding: 70px 15px 50px 25px;
-    max-width: 700px;
+    padding: 40px 15px 30px 25px;
+    max-width: 750px;
     z-index: 1;	
 }
 
@@ -3065,13 +3061,14 @@ ul,li{
 	padding:16px 0px;
 	font-size:15px;
 	text-align:center;
-	color:#ffffff;
+	color:#808080;
 }
 
 .footer-bottom .copyright{
 	position:relative;
 	line-height:20px;
 	padding:5px 0px;
+	color:#fff;
 }
 
 /*** 
@@ -3211,7 +3208,7 @@ ul,li{
 	background-repeat:no-repeat;
 	background-position:center center;
 	color:#ffffff;
-	margin-top:  5px;;
+	margin-top:-35px;
 }
 
 .page-title:before{
@@ -4797,6 +4794,12 @@ td.select{
 }
 .team-section article.team-member .inner-box figure.image img{
 	border:1px solid #eaeaea;
+}
+
+.team-section article.team-member .inner-box figure.image img:hover{
+	border:1px solid #eaeaea;
+	box-shadow: 0 8px 18px -8px #696161;
+	
 }
 
 
