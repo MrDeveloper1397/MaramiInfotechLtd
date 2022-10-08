@@ -119,10 +119,10 @@ p{
 .strike-through{
 	text-decoration:line-through;	
 }
-.container-fluid{
+/* .container-fluid{
 padding-left: 0px !important;
 padding-right: 0px !important;
-}
+} */
 
 .auto-container{
 	position:static;
